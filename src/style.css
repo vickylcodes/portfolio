@@ -7,6 +7,8 @@
 
 body {
   display: block;
+  background: linear-gradient(160deg, #ffffff 0%, #efbfdc 50%, #e3ffe7);
+  
 }
 
 .section {
@@ -166,7 +168,16 @@ p {
 }
 
 #yoga-title {
+  color: #FF9090;
   text-align: left;
+}
+
+#weather-title {
+  color: #FF9090;
+}
+
+#pink-title {
+  color: #FF9090;
 }
 
 #yoga-pic {
