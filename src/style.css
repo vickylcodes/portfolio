@@ -53,6 +53,10 @@ h3 {
   .pink-app {
     display: block;
   }
+
+  #about-sentence {
+    font-size: 80px;
+  }
 }
 
 .navigation-links {
