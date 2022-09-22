@@ -1,0 +1,148 @@
+:root {
+  --primary-color: rgb(214, 121, 164);
+  --secondary-color: #f7e1f4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "Roboto", sans-serif;
+}
+
+body {
+  display: block;
+}
+
+.section {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  font-family: var(--primary-font);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.contact-link:hover,
+.about-link:hover {
+  color: var(--secondary-color);
+  transition: 500ms;
+  font-size: 20px;
+}
+
+.homepage-link {
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+p {
+  font-family: var(--primary-font);
+  flex: 1;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.p-one {
+  letter-spacing: 1px;
+}
+
+.hobbies-sentence {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hobby {
+  display: list-item;
+  text-align: start;
+  margin: 26px -22px 7px 44px;
+  padding: 0 25px 8px 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 500ms;
+  font-size: 17px;
+}
+
+#yoga-title {
+  text-align: left;
+}
+
+#yoga-pic {
+  margin-top: 10px;
+}
