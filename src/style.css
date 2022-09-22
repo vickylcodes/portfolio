@@ -33,9 +33,31 @@ h3 {
   opacity: 0.7;
 }
 
+@media (max-width: 800px) {
+  #hi-sentence {
+    font-size: 50px;
+  }
+  #name {
+    font-size: 65px;
+  }
+  #description,
+  #yoga-pic {
+    display: none;
+  }
+
+  .yoga-app {
+    margin-top: -80px;
+  }
+  
+  .weather-app,
+  .pink-app {
+    display: block;
+  }
+}
+
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
