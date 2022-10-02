@@ -36,9 +36,13 @@ h3 {
 }
 
 #name {
-  color: #ff90a8;
-  font-weight: 400;
+  font-family: "Alkalami", serif;
+  font-size: 86px;
+  color: #e37189;
+  margin-bottom: -29px;
 }
+
+//color: ff90a8;
 
 @media (max-width: 800px) {
   #hi-sentence {
@@ -125,7 +129,7 @@ p {
   font-family: var(--secondary-font);
   font-size: 17px;
   font-weight: 500;
-  color: #f790c0;
+  color: #f68ca2;
   flex: 1;
   padding: 20px;
   border-radius: 10px;
@@ -187,16 +191,16 @@ p {
 }
 
 #yoga-title {
-  color: #ff9090;
+  color: #f68ca2;
   text-align: left;
 }
 
 #weather-title {
-  color: #ff9090;
+  color: #f68ca2;
 }
 
 #pink-title {
-  color: #ff9090;
+  color: #f68ca2;
 }
 
 #yoga-pic {
